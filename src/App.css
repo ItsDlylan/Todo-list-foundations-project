@@ -10,7 +10,18 @@ body {
 .home__container {
 	height: 60vh;
 }
-
+.header-primary {
+	font-size: 3.5rem;
+	text-align: center;
+	color: #2485d0;
+}
+.header-secondary {
+	font-size: 3rem;
+	text-align: center;
+	background-image: linear-gradient(to right, #2485d0, #f9d423);
+	-webkit-background-clip: text;
+	color: transparent;
+}
 .list__container {
 	min-height: 50vh;
 }
