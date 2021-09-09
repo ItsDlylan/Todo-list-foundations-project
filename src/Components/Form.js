@@ -62,7 +62,7 @@ const List = ({ addTodo, rerenderTodo, id }) => {
 		return () => {
 			clearTimeout(timerId);
 		};
-	}, [sortSelected]);
+	}, [rerenderTodo, sortSelected]);
 
 	return (
 		<form
